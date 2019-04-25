@@ -1,0 +1,7 @@
+C:\Users\emrah\source\repos\eGym\eGymTabular\bin\Model.asdatabase
+C:\Users\emrah\source\repos\eGym\eGymTabular\bin\Model.deploymenttargets
+C:\Users\emrah\source\repos\eGym\eGymTabular\bin\Model.deploymentoptions
+C:\Users\emrah\source\repos\eGym\eGymTabular\obj\Development\eGymTabular.smproj.CoreCompileInputs.cache
+C:\Users\emrah\source\repos\eGym\eGymTabular\obj\Development\Model.asdatabase
+C:\Users\emrah\source\repos\eGym\eGymTabular\obj\Development\Model.deploymentoptions
+C:\Users\emrah\source\repos\eGym\eGymTabular\obj\Development\Model.deploymenttargets

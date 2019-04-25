@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>eGymCube</Database>
+    <Server>DESKTOP-GGGJHIE\MSSQLMULTIDIMENS</Server>
+    <ConnectionString>Data Source=DESKTOP-GGGJHIE\MSSQLMULTIDIMENS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ULk8WXLF2ettlfy2OzGxy/NU0tA=03-Apr-19 7:44:12 PM03-Apr-19 7:31:49 PM</TimeStamp>
+        <ID>
+          <String>EgymDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SRYY0FVh9JJpSwWPph91YLeyEAU=03-Apr-19 7:32:17 PM03-Apr-19 7:32:16 PM</TimeStamp>
+        <ID>
+          <String>EgymCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aumqpZYCJjFjQX5AyWQ8vYfSNps=04-Apr-19 10:08:19 AM03-Apr-19 7:32:40 PM</TimeStamp>
+        <ID>
+          <String>Dim Datum</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eM5215zKCyxbxbLnKayvGZJ7ojg=03-Apr-19 7:38:57 PM03-Apr-19 7:32:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Lokacija</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0fzRUQb1vO6KzQCOncyo5sIeWnY=03-Apr-19 7:39:12 PM03-Apr-19 7:32:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Clan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fu+8uo6edKwOmLOmc6u1me8biqU=03-Apr-19 7:39:19 PM03-Apr-19 7:32:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Clanarina Tip</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hHV9zP7S20XH2arFK1eKjUbgC/s=03-Apr-19 7:32:41 PM03-Apr-19 7:32:41 PM</TimeStamp>
+        <ID>
+          <String>Dim Spol</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>a1u4i+EwfoBii/Mic6fBj7HCvwc=03-Apr-19 7:39:19 PM03-Apr-19 7:32:40 PMjtOzkhfgUEPBqUHCIlgMnfik1E0=03-Apr-19 7:32:41 PM03-Apr-19 7:32:40 PM</TimeStamp>
+        <ID>
+          <String>EgymCube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>E37oI+Uf6CbMe/HU+JQuxoTlhH4=03-Apr-19 7:31:17 PM03-Apr-19 7:31:16 PM</TimeStamp>
+      <ID>
+        <String>eGymCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-04-04T08:09:22.456667Z</LastDeployed>
+</DeploymentSnapshot>
